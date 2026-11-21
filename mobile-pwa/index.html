@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; manifest-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'" />
+  <meta name="theme-color" content="#0f131a" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="BF6配装" />
+  <title>战地6配装速查 · BF6 Weapon Hub</title>
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" href="./icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="./icon.svg" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-top">
+      <div class="brand"><span class="brand-dot"></span><span>战地6 · 素体与配装速查</span></div>
+      <span id="meta-tag" class="badge-meta">离线零权限</span>
+    </div>
+    <div id="filter-area">
+      <div class="search-row">
+        <input id="search-box" class="search-input" type="search" placeholder="搜索枪名/代号 (如 Z84M, pkm, M433)..." autocomplete="off" />
+        <select id="tier-sel" class="tier-select" aria-label="强度筛选">
+          <option value="all">全部 Tier</option>
+          <option value="T0">仅 T0</option>
+          <option value="T0T1">T0 + T1</option>
+        </select>
+      </div>
+      <div id="band-chips" class="chip-strip"></div>
+      <div id="cls-chips" class="chip-strip"></div>
+    </div>
+  </header>
+
+  <main class="main-container">
+    <section id="tab-hall">
+      <div class="summary-bar">
+        <span id="count-label">加载中...</span>
+        <span>点选卡片查看毕业配装与开荒顺序</span>
+      </div>
+      <div id="weapon-cards" class="card-list"></div>
+    </section>
+
+    <section id="tab-ttk" class="hidden">
+      <div id="ttk-chips" class="chip-strip"></div>
+      <div class="summary-bar">
+        <span>全自动 100HP 上胸实战 TTK（含初速飞行延迟）</span>
+      </div>
+      <div id="ttk-list" class="card-list"></div>
+    </section>
+
+    <section id="tab-fav" class="hidden">
+      <div class="summary-bar">
+        <span id="fav-count">本地收藏（仅保存在本机浏览器）</span>
+      </div>
+      <div id="fav-cards" class="card-list"></div>
+    </section>
+
+    <section id="tab-rules" class="hidden">
+      <div class="rule-card">
+        <h3>一、怎么看「素体」3秒定最佳距离？</h3>
+        <ul>
+          <li><strong>常规配件不改伤害衰减断点：</strong>枪管主要改初速与连射散布，不延长几枪死（BTK）的距离。最佳距离由素体直接决定。</li>
+          <li><strong>0–9m 近战爆发型：</strong>如 SCW-10、KV9、SG 553R、M4A1，贴脸 150–200ms 融化对手，配装堆「蓝/绿激光 + 阻手器」。</li>
+          <li><strong>15–35m 中近主力型：</strong>如 Z84M、M433、VCR-2、TR-7，一段射程 21m 高伤但后坐偏大，优先堆垂直/宽型握把。</li>
+          <li><strong>35m+ 中远激光/无衰减型：</strong>如 M250（全距 4 枪无衰减）、M277（76m 内 4 枪）、KTS100 MK8、RPK-74M、AK-205、KORD 6P67。</li>
+          <li><strong>栓狙看「胸口甜区」：</strong>SV-98(54–76m)、M2010(75–100m)、PSR(90–120m)、L115(100–134m)、ELR-40(150m+) 在甜区内打胸一枪死。</li>
+        </ul>
+      </div>
+      <div class="rule-card">
+        <h3>二、未满级前（Lv.1 → 满级）开荒口诀</h3>
+        <ul>
+          <li><strong>保留 1 级原厂神件：</strong>M433 原厂送 35 点经典垂直握把、M2010 送测距仪、Z84M 送重型原厂管，前期别拆。</li>
+          <li><strong>先换 10 点瞄具，再冲下挂握把：</strong>握把占中远控枪提升的 65% 以上，按「10/15点折叠 → 20点条纹 → 25点6H64 → 35/45点毕业」阶梯替换。</li>
+          <li><strong>低费制退器过渡极香：</strong>5–10 点单/双孔制退器即可拿到 20 点补偿制退器约 85% 的效果，省出点数带扩容弹匣。</li>
+          <li><strong>质变件必肝：</strong>栓狙 DLC 枪栓(30点，开镜直拉栓)、VSSM 折叠枪托(40点，变 800RPM 全自动)、冲锋枪紧凑型阻手器(10点，冲刺开火)。</li>
+        </ul>
+      </div>
+      <div class="rule-card">
+        <h3>三、最小权限与隐私说明</h3>
+        <ul>
+          <li><strong>零系统权限：</strong>不申请定位、相机、相册、存储、通知或剪贴板读取权限。</li>
+          <li><strong>零外链与离线可用：</strong>CSP 锁定同源加载，无第三方 CDN 与统计脚本；首次访问后断网/飞行模式可正常使用。</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- Weapon Detail Bottom Sheet -->
+  <div id="detail-backdrop" class="sheet-backdrop hidden" role="dialog" aria-modal="true">
+    <div id="detail-sheet" class="sheet">
+      <div class="sheet-header">
+        <div>
+          <div class="w-title-group">
+            <span id="d-name" class="w-name"></span>
+            <span id="d-cls" class="badge-meta"></span>
+          </div>
+          <div id="d-arch" class="w-cls"></div>
+        </div>
+        <div class="w-title-group">
+          <button id="d-fav-btn" class="icon-btn" type="button">☆ 收藏</button>
+          <button id="d-close-btn" class="icon-btn" type="button">关闭 ✕</button>
+        </div>
+      </div>
+      <div id="detail-body" class="sheet-body"></div>
+    </div>
+  </div>
+
+  <nav class="bottom-nav" aria-label="底部导航">
+    <button class="nav-btn active" data-nav="hall" type="button"><span class="nav-icon">🎯</span><span>配装速查</span></button>
+    <button class="nav-btn" data-nav="ttk" type="button"><span class="nav-icon">⚡</span><span>TTK天梯</span></button>
+    <button class="nav-btn" data-nav="fav" type="button"><span class="nav-icon">★</span><span>我的收藏</span></button>
+    <button class="nav-btn" data-nav="rules" type="button"><span class="nav-icon">📘</span><span>开荒法则</span></button>
+  </nav>
+
+  <script src="./data.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

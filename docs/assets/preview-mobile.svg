@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 680" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif">
+  <!-- Phone Frame -->
+  <rect x="10" y="8" width="400" height="664" rx="38" fill="#0B0E14" stroke="#263042" stroke-width="3"/>
+  <!-- Top Bar -->
+  <rect x="13" y="12" width="394" height="58" rx="34" fill="#131822"/>
+  <circle cx="38" cy="44" r="6" fill="#FF6B2B"/>
+  <text x="52" y="49" fill="#F1F5F9" font-size="15" font-weight="800">战地6 · 素体与配装速查</text>
+  <rect x="290" y="34" width="98" height="20" rx="10" fill="#1B2230"/>
+  <text x="339" y="48" text-anchor="middle" fill="#94A3B8" font-size="10" font-weight="600">离线零权限</text>
+
+  <!-- Bottom Sheet Overlay Preview -->
+  <rect x="13" y="82" width="394" height="528" rx="22" fill="#131822" stroke="#263042"/>
+  <text x="32" y="114" fill="#F1F5F9" font-size="17" font-weight="800">M433 ★</text>
+  <rect x="102" y="99" width="88" height="20" rx="8" fill="#1B2230"/>
+  <text x="146" y="113" text-anchor="middle" fill="#94A3B8" font-size="10">突击步枪 · 全自动</text>
+  <text x="32" y="134" fill="#94A3B8" font-size="11">全能主力型（近/中近/中/远） · 最佳：中近 15–35m T0</text>
+  <line x1="13" y1="146" x2="407" y2="146" stroke="#263042"/>
+
+  <!-- Archetype Pills -->
+  <rect x="30" y="158" width="112" height="26" rx="13" fill="#FF6B2B"/>
+  <text x="86" y="175" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="700">中距控枪 (100点)</text>
+  <rect x="150" y="158" width="112" height="26" rx="13" fill="#1B2230" stroke="#263042"/>
+  <text x="206" y="175" text-anchor="middle" fill="#94A3B8" font-size="11">近战机动 (100点)</text>
+  <rect x="270" y="158" width="112" height="26" rx="13" fill="#1B2230" stroke="#263042"/>
+  <text x="326" y="175" text-anchor="middle" fill="#94A3B8" font-size="11">远距激光 (100点)</text>
+
+  <!-- Damage Breakpoints -->
+  <text x="30" y="205" fill="#94A3B8" font-size="11" font-weight="700">素体上胸衰减 · 初速 504→788m/s · 弹匣 31→41</text>
+  <rect x="30" y="213" width="174" height="32" rx="8" fill="#0B0E14" stroke="#263042"/>
+  <text x="40" y="233" fill="#94A3B8" font-size="11">0–21m</text>
+  <text x="194" y="233" text-anchor="end" fill="#F1F5F9" font-size="11" font-weight="700">4枪 / 217ms</text>
+  <rect x="214" y="213" width="174" height="32" rx="8" fill="#0B0E14" stroke="#263042"/>
+  <text x="224" y="233" fill="#94A3B8" font-size="11">21–75m</text>
+  <text x="378" y="233" text-anchor="end" fill="#F1F5F9" font-size="11" font-weight="700">5枪 / 289ms</text>
+
+  <!-- 100pt Build -->
+  <text x="30" y="268" fill="#94A3B8" font-size="11" font-weight="700">100点满级毕业配件（100/100点）</text>
+  <rect x="30" y="276" width="174" height="32" rx="8" fill="#0B0E14" stroke="#263042"/>
+  <text x="40" y="296" fill="#F1F5F9" font-size="11">下挂：经典垂直握把 (35)</text>
+  <rect x="214" y="276" width="174" height="32" rx="8" fill="#0B0E14" stroke="#263042"/>
+  <text x="224" y="296" fill="#F1F5F9" font-size="11">弹匣：40 发弹匣 (25)</text>
+  <rect x="30" y="314" width="174" height="32" rx="8" fill="#0B0E14" stroke="#263042"/>
+  <text x="40" y="334" fill="#F1F5F9" font-size="11">枪口：双孔制退器 (10)</text>
+  <rect x="214" y="314" width="174" height="32" rx="8" fill="#0B0E14" stroke="#263042"/>
+  <text x="224" y="334" fill="#F1F5F9" font-size="11">枪管：18.9 英寸原型 (5)</text>
+
+  <!-- Pre-max Progression -->
+  <text x="30" y="368" fill="#94A3B8" font-size="11" font-weight="700">未满级前升级替换顺序（从 #1 开始换）</text>
+  <rect x="30" y="376" width="358" height="34" rx="8" fill="#1B2230"/>
+  <rect x="30" y="376" width="4" height="34" rx="2" fill="#FF6B2B"/>
+  <text x="44" y="397" fill="#F1F5F9" font-size="11" font-weight="600">Lv.1 原厂保留别拆：下挂·经典垂直握把 (35点)</text>
+
+  <rect x="30" y="416" width="358" height="52" rx="8" fill="#0B0E14" stroke="#263042"/>
+  <text x="42" y="436" fill="#F1F5F9" font-size="11" font-weight="700">#1 弹匣 → 40 发弹匣 (25点)</text>
+  <text x="376" y="436" text-anchor="end" fill="#22C55E" font-size="11" font-weight="700">+5.0</text>
+  <text x="42" y="456" fill="#94A3B8" font-size="10">低阶过渡：36 发弹匣 (15点, ~52%效果)</text>
+
+  <rect x="30" y="474" width="358" height="34" rx="8" fill="#0B0E14" stroke="#263042"/>
+  <text x="42" y="495" fill="#F1F5F9" font-size="11" font-weight="700">#2 枪管 → 18.9 英寸原型 (5点)</text>
+  <text x="376" y="495" text-anchor="end" fill="#22C55E" font-size="11" font-weight="700">+4.3</text>
+
+  <rect x="30" y="518" width="358" height="36" rx="10" fill="#FF6B2B"/>
+  <text x="209" y="541" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="800">复制当前配装与过渡顺序</text>
+
+  <!-- Bottom Thumb Nav -->
+  <rect x="13" y="610" width="394" height="58" rx="28" fill="#131822"/>
+  <line x1="13" y1="610" x2="407" y2="610" stroke="#263042"/>
+  <text x="68" y="644" text-anchor="middle" fill="#FF6B2B" font-size="11" font-weight="800">配装速查</text>
+  <text x="162" y="644" text-anchor="middle" fill="#94A3B8" font-size="11" font-weight="600">TTK天梯</text>
+  <text x="256" y="644" text-anchor="middle" fill="#94A3B8" font-size="11" font-weight="600">我的收藏</text>
+  <text x="350" y="644" text-anchor="middle" fill="#94A3B8" font-size="11" font-weight="600">开荒法则</text>
+</svg>

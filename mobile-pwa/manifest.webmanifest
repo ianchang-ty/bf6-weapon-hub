@@ -1,0 +1,19 @@
+{
+  "name": "战地6配装速查 (BF6 Weapon Hub)",
+  "short_name": "BF6配装",
+  "description": "离线零权限的战地风云6素体分类、最佳交战距离与未满级配枪速查手册",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b0e14",
+  "theme_color": "#0f131a",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

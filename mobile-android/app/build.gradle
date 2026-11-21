@@ -1,0 +1,42 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'org.bf6weaponhub.app'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "org.bf6weaponhub.app"
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName "1.0.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+tasks.register('syncWebAssets', Copy) {
+    from('../../mobile-pwa') {
+        include 'index.html', 'styles.css', 'app.js', 'data.js', 'icon.svg', 'manifest.webmanifest'
+    }
+    into('src/main/assets/www')
+}
+
+preBuild.dependsOn(syncWebAssets)
+
+dependencies {
+    // Intentionally empty: zero third-party SDKs, zero automatic manifest permission injection
+}

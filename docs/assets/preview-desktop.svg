@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" font-family="Segoe UI, Microsoft YaHei, system-ui, sans-serif">
+  <rect width="960" height="540" rx="14" fill="#0B0E14" stroke="#263042" stroke-width="2"/>
+  <!-- Window Header -->
+  <rect x="1" y="1" width="958" height="54" rx="13" fill="#131822"/>
+  <line x1="0" y1="55" x2="960" y2="55" stroke="#263042"/>
+  <circle cx="24" cy="28" r="6" fill="#FF6B2B"/>
+  <text x="40" y="33" fill="#F1F5F9" font-size="16" font-weight="700">战地风云6 · 武器战术工作台 (BF6 Weapon Hub)</text>
+  <rect x="392" y="17" width="176" height="22" rx="5" fill="#1B2230" stroke="#263042"/>
+  <text x="480" y="32" text-anchor="middle" fill="#22C55E" font-size="11" font-weight="600">离线 · 零网络 · asInvoker</text>
+  <!-- Top Tabs -->
+  <rect x="598" y="14" width="110" height="28" rx="6" fill="#1B2230" stroke="#263042"/>
+  <text x="653" y="32" text-anchor="middle" fill="#F1F5F9" font-size="11" font-weight="600">配装大厅与过渡</text>
+  <rect x="716" y="14" width="112" height="28" rx="6" fill="#FF6B2B"/>
+  <text x="772" y="32" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="700">100点自由枪匠</text>
+  <rect x="836" y="14" width="108" height="28" rx="6" fill="#1B2230" stroke="#263042"/>
+  <text x="890" y="32" text-anchor="middle" fill="#F1F5F9" font-size="11" font-weight="600">双枪横向对比</text>
+
+  <!-- Left Weapon Sidebar -->
+  <rect x="16" y="70" width="276" height="454" rx="10" fill="#131822" stroke="#263042"/>
+  <rect x="28" y="84" width="252" height="30" rx="6" fill="#0B0E14" stroke="#263042"/>
+  <text x="40" y="103" fill="#94A3B8" font-size="11">搜索武器 (Z84M / M433 / KV9)...</text>
+
+  <!-- Distance Chips -->
+  <rect x="28" y="122" width="44" height="22" rx="5" fill="#0B0E14" stroke="#263042"/>
+  <text x="50" y="137" text-anchor="middle" fill="#94A3B8" font-size="10">全部</text>
+  <rect x="77" y="122" width="52" height="22" rx="5" fill="#0B0E14" stroke="#263042"/>
+  <text x="103" y="137" text-anchor="middle" fill="#94A3B8" font-size="10">近0-15</text>
+  <rect x="134" y="122" width="62" height="22" rx="5" fill="#FF6B2B"/>
+  <text x="165" y="137" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="700">中近15-35</text>
+  <rect x="201" y="122" width="52" height="22" rx="5" fill="#0B0E14" stroke="#263042"/>
+  <text x="227" y="137" text-anchor="middle" fill="#94A3B8" font-size="10">中35-60</text>
+
+  <!-- Weapon Cards -->
+  <rect x="28" y="156" width="252" height="58" rx="8" fill="#0B0E14" stroke="#263042"/>
+  <rect x="38" y="166" width="26" height="18" rx="4" fill="#FF6B2B"/>
+  <text x="51" y="179" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="700">T0</text>
+  <text x="72" y="180" fill="#F1F5F9" font-size="13" font-weight="700">KORD 6P67</text>
+  <text x="155" y="179" fill="#94A3B8" font-size="11">突击步枪</text>
+  <text x="38" y="202" fill="#94A3B8" font-size="11">全能主力型 · 900RPM · 5枪/267ms</text>
+
+  <rect x="28" y="222" width="252" height="58" rx="8" fill="#1B2230" stroke="#FF6B2B" stroke-width="1.5"/>
+  <rect x="38" y="232" width="26" height="18" rx="4" fill="#131822" stroke="#FF6B2B"/>
+  <text x="51" y="245" text-anchor="middle" fill="#F1F5F9" font-size="10" font-weight="700">T1</text>
+  <text x="72" y="246" fill="#F1F5F9" font-size="13" font-weight="700">Z84M</text>
+  <text x="118" y="245" fill="#94A3B8" font-size="11">机枪</text>
+  <text x="38" y="268" fill="#F1F5F9" font-size="11">中近压制 · 720RPM · 3枪/167ms</text>
+
+  <rect x="28" y="288" width="252" height="58" rx="8" fill="#0B0E14" stroke="#263042"/>
+  <rect x="38" y="298" width="26" height="18" rx="4" fill="#FF6B2B"/>
+  <text x="51" y="311" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="700">T0</text>
+  <text x="72" y="312" fill="#F1F5F9" font-size="13" font-weight="700">M433</text>
+  <text x="118" y="311" fill="#94A3B8" font-size="11">突击步枪</text>
+  <text x="38" y="334" fill="#94A3B8" font-size="11">全能主力型 · 831RPM · 4枪/217ms</text>
+
+  <rect x="28" y="354" width="252" height="58" rx="8" fill="#0B0E14" stroke="#263042"/>
+  <rect x="38" y="364" width="26" height="18" rx="4" fill="#FF6B2B"/>
+  <text x="51" y="377" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="700">T0</text>
+  <text x="72" y="378" fill="#F1F5F9" font-size="13" font-weight="700">M277</text>
+  <text x="118" y="377" fill="#94A3B8" font-size="11">卡宾枪</text>
+  <text x="38" y="400" fill="#94A3B8" font-size="11">76m内恒定4枪 · 720RPM · 250ms</text>
+
+  <!-- Right Main Workbench -->
+  <rect x="306" y="70" width="638" height="454" rx="10" fill="#131822" stroke="#263042"/>
+  <text x="326" y="102" fill="#F1F5F9" font-size="18" font-weight="700">100点自由枪匠模拟器 — Z84M (机枪)</text>
+  <rect x="810" y="82" width="116" height="28" rx="6" fill="#FF6B2B"/>
+  <text x="868" y="100" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="700">导出配装单 (.txt)</text>
+
+  <!-- Budget Meter -->
+  <rect x="326" y="118" width="600" height="54" rx="8" fill="#0B0E14" stroke="#263042"/>
+  <text x="340" y="139" fill="#22C55E" font-size="12" font-weight="700">当前配件点数：100 / 100 点（合法满配）</text>
+  <text x="690" y="139" fill="#94A3B8" font-size="11">☑ 激光   ☑ 战术灯   ☐ 架设两脚架</text>
+  <rect x="340" y="150" width="572" height="8" rx="4" fill="#FF6B2B"/>
+
+  <!-- 4 Stat Comparison Cards -->
+  <rect x="326" y="182" width="142" height="54" rx="8" fill="#0B0E14" stroke="#263042"/>
+  <text x="338" y="202" fill="#94A3B8" font-size="11">控制</text>
+  <text x="456" y="202" text-anchor="end" fill="#22C55E" font-size="12" font-weight="700">35 → 49 (+14)</text>
+  <rect x="338" y="216" width="118" height="6" rx="3" fill="#1B2230"/>
+  <rect x="338" y="216" width="62" height="6" rx="3" fill="#FF6B2B"/>
+
+  <rect x="478" y="182" width="142" height="54" rx="8" fill="#0B0E14" stroke="#263042"/>
+  <text x="490" y="202" fill="#94A3B8" font-size="11">精准</text>
+  <text x="608" y="202" text-anchor="end" fill="#22C55E" font-size="12" font-weight="700">17 → 19 (+2)</text>
+  <rect x="490" y="216" width="118" height="6" rx="3" fill="#1B2230"/>
+  <rect x="490" y="216" width="28" height="6" rx="3" fill="#FF6B2B"/>
+
+  <rect x="630" y="182" width="142" height="54" rx="8" fill="#0B0E14" stroke="#263042"/>
+  <text x="642" y="202" fill="#94A3B8" font-size="11">腰射</text>
+  <text x="760" y="202" text-anchor="end" fill="#F1F5F9" font-size="12" font-weight="700">29 → 29</text>
+  <rect x="642" y="216" width="118" height="6" rx="3" fill="#1B2230"/>
+  <rect x="642" y="216" width="36" height="6" rx="3" fill="#FF6B2B"/>
+
+  <rect x="782" y="182" width="144" height="54" rx="8" fill="#0B0E14" stroke="#263042"/>
+  <text x="794" y="202" fill="#94A3B8" font-size="11">机动</text>
+  <text x="914" y="202" text-anchor="end" fill="#22C55E" font-size="12" font-weight="700">28 → 32 (+4)</text>
+  <rect x="794" y="216" width="120" height="6" rx="3" fill="#1B2230"/>
+  <rect x="794" y="216" width="42" height="6" rx="3" fill="#FF6B2B"/>
+
+  <!-- Slot Selectors -->
+  <text x="326" y="258" fill="#94A3B8" font-size="11" font-weight="700">全槽位实时选择器（修改任意配件自动重算四维、弹速、开镜与分段 TTK）</text>
+
+  <rect x="326" y="268" width="294" height="68" rx="8" fill="#0B0E14" stroke="#263042"/>
+  <text x="338" y="288" fill="#F1F5F9" font-size="12" font-weight="700">下挂（可选）</text>
+  <rect x="338" y="296" width="270" height="28" rx="5" fill="#1B2230" stroke="#263042"/>
+  <text x="348" y="314" fill="#F1F5F9" font-size="12">[45点] 矮型宽型握把  ▾</text>
+
+  <rect x="632" y="268" width="294" height="68" rx="8" fill="#0B0E14" stroke="#263042"/>
+  <text x="644" y="288" fill="#F1F5F9" font-size="12" font-weight="700">枪口（可选）</text>
+  <rect x="644" y="296" width="270" height="28" rx="5" fill="#1B2230" stroke="#263042"/>
+  <text x="654" y="314" fill="#F1F5F9" font-size="12">[20点] 补偿制退器  ▾</text>
+
+  <rect x="326" y="346" width="294" height="68" rx="8" fill="#0B0E14" stroke="#263042"/>
+  <text x="338" y="366" fill="#F1F5F9" font-size="12" font-weight="700">枪管（必选）</text>
+  <rect x="338" y="374" width="270" height="28" rx="5" fill="#1B2230" stroke="#263042"/>
+  <text x="348" y="392" fill="#F1F5F9" font-size="12">[10点] 603 毫米原厂型 (原厂)  ▾</text>
+
+  <rect x="632" y="346" width="294" height="68" rx="8" fill="#0B0E14" stroke="#263042"/>
+  <text x="644" y="366" fill="#F1F5F9" font-size="12" font-weight="700">弹匣（必选）</text>
+  <rect x="644" y="374" width="270" height="28" rx="5" fill="#1B2230" stroke="#263042"/>
+  <text x="654" y="392" fill="#F1F5F9" font-size="12">[5点] 100 发金属弹链盒  ▾</text>
+
+  <rect x="326" y="424" width="294" height="68" rx="8" fill="#0B0E14" stroke="#263042"/>
+  <text x="338" y="444" fill="#F1F5F9" font-size="12" font-weight="700">弹药（必选）</text>
+  <rect x="338" y="452" width="270" height="28" rx="5" fill="#1B2230" stroke="#263042"/>
+  <text x="348" y="470" fill="#F1F5F9" font-size="12">[10点] 聚合物弹链  ▾</text>
+
+  <rect x="632" y="424" width="294" height="68" rx="8" fill="#0B0E14" stroke="#263042"/>
+  <text x="644" y="444" fill="#F1F5F9" font-size="12" font-weight="700">光学瞄具（可选）</text>
+  <rect x="644" y="452" width="270" height="28" rx="5" fill="#1B2230" stroke="#263042"/>
+  <text x="654" y="470" fill="#F1F5F9" font-size="12">[10点] 2Pro 1.25 倍  ▾</text>
+</svg>
